@@ -6,16 +6,6 @@ class Table {
     this.data = data;
   }
 
-  addMainRow() {
-    const topicArray = ['id', 'title', 'year', 'imdb'];
-    const mainRow = document.createElement('tr');
-    for (const topic of topicArray) {
-      const cell = this.addCell(topic, 'th')
-      mainRow.appendChild(cell);
-    }
-    this.element.appendChild(mainRow);
-  }
-
   addRow() {
   	const row = document.createElement('tr');
     row.classList.add('table_item')
@@ -44,7 +34,6 @@ class Table {
   }
 
  loadData() {
-    this.addMainRow();
     for (const element of this.data) {
       const row = this.addRow()
       const cellId = this.addCell(element.id, 'td');
@@ -59,15 +48,15 @@ class Table {
       row.appendChild(cellImdb);
     }
   }
+
 }
 
 const table = new Table(data);
 table.loadData();
-
 const mainCell = document.querySelectorAll('th');
-for (const cell of mainCell) {
-  cell.addEventListener('click', function() {
-    table.sortData(cell.innerText);
+
+for (const element of mainCell) {
+  element.addEventListener('click', function() {
+    table.sortData(element.innerText);
   })
 }
-
