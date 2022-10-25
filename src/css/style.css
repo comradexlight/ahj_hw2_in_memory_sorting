@@ -6,6 +6,10 @@ table {
 		margin: auto;
 }
 
-.active {
-	display: none	;
+.sorted-down:after {
+	content: '\2193';
+}
+
+.sorted-up:after {
+	content: '\2191';
 }
