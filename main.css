@@ -1,0 +1,18 @@
+td {
+	text-align: center;
+}
+
+table {
+		margin: auto;
+}
+
+.sorted-down:after {
+	content: '\2193';
+}
+
+.sorted-up:after {
+	content: '\2191';
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibWFpbi5jc3MiLCJtYXBwaW5ncyI6IkFBQUE7Q0FDQyxrQkFBa0I7QUFDbkI7O0FBRUE7RUFDRSxZQUFZO0FBQ2Q7O0FBRUE7Q0FDQyxnQkFBZ0I7QUFDakI7O0FBRUE7Q0FDQyxnQkFBZ0I7QUFDakIiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9haGpfaHcyX2luX21lbW9yeV9zb3J0aW5nLy4vc3JjL2Nzcy9zdHlsZS5jc3MiXSwic291cmNlc0NvbnRlbnQiOlsidGQge1xuXHR0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cbnRhYmxlIHtcblx0XHRtYXJnaW46IGF1dG87XG59XG5cbi5zb3J0ZWQtZG93bjphZnRlciB7XG5cdGNvbnRlbnQ6ICdcXDIxOTMnO1xufVxuXG4uc29ydGVkLXVwOmFmdGVyIHtcblx0Y29udGVudDogJ1xcMjE5MSc7XG59XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=*/
